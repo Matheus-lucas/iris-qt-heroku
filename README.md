@@ -13,7 +13,7 @@ Criar uma interface local e um INterface Web onde o usúario possa ter controle 
 * Transistor
 * Jumpers
 * Sensor de Umidade
-![Sensor de Umidade](img/sensor.jpg)
+![Sensor de Umidade](img/umidade.jpg)
 
 ##ESP 8266
 
