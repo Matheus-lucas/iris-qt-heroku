@@ -23,7 +23,7 @@ A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de u
 
 ![ESP 8266](img/esp.jpg)
 
-## Mointor Serial
+## Monitor Serial
 
 No monitor Serial, são mostrados os valores de umidade lidos, bem como o estado da bomba, sendo 1 o estado ativado, e 0 o estado desativado. Os valores são impressos em formato de Json, para facilitar a comunicação entre as interfaces, e garantir a integridade dos dados.
 
