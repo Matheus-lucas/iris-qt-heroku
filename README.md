@@ -4,17 +4,16 @@
 
 Criar uma interface local e um INterface Web onde o usúario possa ter controle da sua irrigação, e possa monitorar a umidade da planta.
 
-![Novo Repositório no Github](img/g1.png)
-
 ##Materiais:
 
 * Esp 8266
 * Bomba de água 
-![Bomba de Água](img/bomba.jpg)
+![Bomba de Água
+](img/bomba.jpg)
 * Transistor
 * Jumpers
 * Sensor de Umidade
-![Sensor de Umidade](img/sensro.jpg)
+![Sensor de Umidade](img/sensor.jpg)
 
 ##ESP 8266
 
