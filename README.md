@@ -1,27 +1,29 @@
-# Prática
+# IRIS - QT
 
-## Criando um Repositório no Github
+## Objetivo
 
-Uma vez feito o login no Github, podemos criar um novo repositório de um projeto facilmente clicando em **[+ New Repository]**, localizado no canto inferior direito da tela, conforme a imagem abaixo:
+Criar uma interface local e um INterface Web onde o usúario possa ter controle da sua irrigação, e possa monitorar a umidade da planta.
 
 ![Novo Repositório no Github](imgs/g1.png)
 
-Na tela seguinte colocamos os dados do novo repositório:
+##Materiais:
 
-* nome
-* descrição
+* Esp 8266
+* Bomba de água 
+* Transistor
+* Jumpers
 
-E selecionamos a *checkbox* **initialize this repository with a README**. O que essa opção faz é que ao invés de ter um repositório vazio, ele criará um repositório já com um commit responsavel por criar um arquivo README com os dados de nome e descrição do projeto. Isso é algo que agiliza um pouco as coisas. Em seguida clicamos em **[Create Repository]**
+##ESP 8266
 
-A imagem abaixo é um exemplo de como pode ser preenchido esses campos:
+A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de umidade, controlar a bomba e os leds, lendo valroes do Serial para determinar qual ação irá realizar.
 
 
 ![Dados Novo Repositório no Github](imgs/g2.png)
 
 
-## Clone do Repositório
+## Aplicação do QTCreator
 
-Agora que já temos um repositório **remoto** (o repositório que acabou de ser criado no Github), podemos fazer um **clone** dele localmente.
+No QTCreator, foi criada uma aplicação para a informar ao usário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento
 
 Mas antes disso precisamos selecionar algumas janelas no Eclipse para realizar essas operações.
 
