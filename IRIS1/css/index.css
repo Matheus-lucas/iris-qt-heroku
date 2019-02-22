@@ -1,0 +1,68 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-tittle {
+    color: #fff;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fixed{
+    background: url(../img/slide2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding:2px;
+}
+
+#fixed h5{
+    text-align: center;
+    font-size: 250%;
+    color: black !important;
+}
+#fixed p{
+    text-align: center;
+    font-size: 300%;
+    color: black !important;
+}
+#fixed i{
+    vertical-align: middle;
+    font-size: 150%;
+    color: #28a745!important;
+}
+
+/* Peguei essa idéia no site do Evernote */
+.social-links {
+    list-style-type: none;
+    overflow: hidden; }
+    .social-links li {
+      float: right;
+      margin-right: 7%; }
+      .social-links li:first-child {
+        margin-left: 0; }
+    .social-links a {
+      display: block;
+      width: 22px;
+      height: 18px;
+      overflow: hidden;
+      text-align: center; }
+    .social-links img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%; }
+    .social-links span {
+      position: absolute;
+      right: 9999px; }
+    .social-links .youtube {
+      margin-top: 2px; }
+      
+footer ul a {
+    font-size: 100%;
+    color: #28a745;
+} 
