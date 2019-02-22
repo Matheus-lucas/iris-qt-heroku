@@ -26,7 +26,7 @@ A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de u
 ## Biblioteca
 
  A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em json, bem como para atualizar e receber os dados da Interface WEB, recebendo os pinos nas quais os componentes estão ligados.
- ![Controlebomba.h](img/biblioteca.jpg)
+ ![Controlebomba.h](img/biblioteca.png)
 
 ## Monitor Serial
 
