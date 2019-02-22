@@ -1,2 +1,2 @@
 # iris-qt-heroku
-require<IRIS>
+require"IRIS"
