@@ -30,7 +30,7 @@ No monitor Serial, são mostrados os valores de umidade lidos, bem como o estado
 
 No QTCreator, foi criada uma aplicação para a informar ao usário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento. Através dos botôes ligar e desligar, o usuário tem total controle, sobre o sistema, emitindo os dados de controle na serial, para que a Esp interprete os comandos
 
-![Aplicação QTCreator](imgs/1.png)
+![Aplicação QTCreator](imgs/app.png)
 
 ## Interface WEB
 
