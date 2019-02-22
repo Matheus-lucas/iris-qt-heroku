@@ -19,7 +19,7 @@ Criar uma interface local e um INterface Web onde o usúario possa ter controle 
 
 ## ESP 8266
 
-A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de umidade, controlar a bomba e os leds, lendo valroes do Serial para determinar qual ação irá realizar.
+A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de umidade, controlar a bomba e os leds, lendo valroes do Serial para determinar qual ação irá realizar. A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em json, bem como para atualizar e receber os dados da Interface WEB.
 
 ![ESP 8266](img/esp.jpg)
 
