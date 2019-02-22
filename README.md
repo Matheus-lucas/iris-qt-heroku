@@ -10,14 +10,15 @@ Criar uma interface local e um INterface Web onde o usúario possa ter controle 
 
 * Esp 8266
 * Bomba de água 
+![Bomba de Água](img/bomba.jpg)
 * Transistor
 * Jumpers
 * Sensor de Umidade
+![Sensor de Umidade](img/sensro.jpg)
 
 ##ESP 8266
 
 A esp8266 mostrada abaixo, foi usa para coletar e enviar os dados do sensor de umidade, controlar a bomba e os leds, lendo valroes do Serial para determinar qual ação irá realizar.
-
 
 ![ESP 8266](img/esp.png)
 
@@ -39,6 +40,4 @@ No QTCreator, foi criada uma aplicação para a informar ao usário a umidade da
 A interface WEB permite que o usário possa ter controle mesmo a distância, através da internet. Os botôes ligar e desligar emitem comandos para acionar e desativar a bomba, enquanto o estado da bomba é mostrado logo acima.
 A umidade por sua vez, é mostrada logo abaixo, ainda em valores que o sensor de Umidade lê.
 
-
-![Lista de Colaboradores](img/colab4.png)
 
