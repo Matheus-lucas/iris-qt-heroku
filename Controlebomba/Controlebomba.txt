@@ -1,0 +1,17 @@
+# Arduino IDE Keywords for Syntax Coloring
+ 
+# Keyword for class NodeMotorDriver
+Controlebomba KEYWORD1
+ 
+# Keyword for class functions
+tempobomba          KEYWORD2
+desligabomba        KEYWORD2
+umidade             KEYWORD2
+umidadepercentual   KEYWORD2
+ligavermelho        KEYWORD2
+desligavermelho     KEYWORD2
+ligaamarelo         KEYWORD2
+desligaamarelo      KEYWORD2
+ligabomba           KEYWORD2
+JSON_UMID	    KEYWORD2
+JSON_BOMBA	    KEYWORD2
