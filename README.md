@@ -30,7 +30,7 @@ No monitor Serial, são mostrados os valores de umidade lidos, bem como o estado
 ![Monitor Serial](img/serial.png)
 ## Aplicação do QTCreator
 
-No QTCreator, foi criada uma aplicação para a informar ao usário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento. Através dos botôes ligar e desligar, o usuário tem total controle, sobre o sistema, emitindo os dados de controle na serial, para que a Esp interprete os comandos
+No QTCreator, foi criada uma aplicação para a informar ao usário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento. Através dos botôes ligar e desligar, o usuário tem total controle, sobre o sistema, emitindo os dados de controle na serial, para que a Esp interprete os comandos. A porta serial que estiver disponível, será mostrada automaticamente, e a velocidade deve ser configura de acordo com a placa utilizada, no caso da ESP 8266, será o baudrate de 115200.
 
 ![Aplicação QTCreator](img/app.png)
 
