@@ -8,11 +8,13 @@ Criar uma interface local e um INterface Web onde o usúario possa ter controle 
 
 * Esp 8266
 * Bomba de água 
+
 ![Bomba de Água
 ](img/bomba.jpg)
 * Transistor
 * Jumpers
 * Sensor de Umidade
+
 ![Sensor de Umidade](img/umidade.jpg)
 
 ## ESP 8266
