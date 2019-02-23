@@ -31,7 +31,7 @@ Como a ESP não suporta a corrente que a bomba necessita, deve ser conectado uma
 O transistor foi ligado ao Pino 5 da ESP, e os leds indicativos do estado da bomba, sendo vermelho para ligado e amarelo para desligado, foram ligados aos Pinos 6 e 7, o sensor por sua vez foi ligado ao pino A0 da ESP, pois este efetua leituras analógicas.
 **Na figura abaixo, o motor representa a bomba de água, a bateria a fonte externa, e o sensor de temperatura representa o Sensor de Umidade.**
 
-![Exmplo de Esquemático(img/esquematico.png)
+![Exemplo de Esquemático(img/esquematico.png)
 
 ## Biblioteca
 
