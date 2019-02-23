@@ -32,7 +32,7 @@ O transistor foi ligado ao Pino 5 da ESP, e os leds indicativos do estado da bom
 
 ## Biblioteca
 
- A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em Json, bem como para atualizar e receber os dados da Interface WEB, recebendo os pinos nas quais os componentes estão ligados.
+ A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em Json, bem como para atualizar e receber os dados da Interface WEB, recebendo os pinos nas quais os componentes estão ligados. Por sua vez, a biblioteca necessita de outras duas outras bibliotecas nativas da ESP, a biblioteca *wifi.h* e *HHTPClient.h*, para conseguir realizar a conexão via wifi e http com a interface WEB.
  
  ![Controlebomba.h](img/biblioteca.png)
  
