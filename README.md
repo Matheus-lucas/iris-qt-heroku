@@ -29,7 +29,7 @@ a bomba será desligada.
 
 Como a ESP não suporta a corrente que a bomba necessita, deve ser conectado uma fonte externa para alimentar a fonte. Está alimentação será controlada pelo transistor, funcionando semelhante a uma chave de controle, ao receber o sinal da ESP, conectará o GND da ESP e da Bomba, ligando-a.
 O transistor foi ligado ao Pino 5 da ESP, e os leds indicativos do estado da bomba, sendo vermelho para ligado e amarelo para desligado, foram ligados aos Pinos 6 e 7, o sensor por sua vez foi ligado ao pino A0 da ESP, pois este efetua leituras analógicas.
-**Na figura abaixo, o motor representa a bomba de água, a bateria a fonte externa, e o sensor de temperatura representa o Sensor de Umidade, e o Arduino representa a ESP 8266**
+**Na figura abaixo, o motor representa a bomba de água, a bateria a fonte externa, o sensor de temperatura representa o Sensor de Umidade, e o Arduino representa a ESP 8266**
 
 ![Exemplo de Esquemático](img/esquematico.png)
 
