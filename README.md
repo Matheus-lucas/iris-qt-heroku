@@ -32,7 +32,7 @@ O transistor foi ligado ao Pino 5 da ESP, e os leds indicativos do estado da bom
 
 ## Biblioteca
 
- A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em Json, bem como para atualizar e receber os dados da Interface WEB, recebendo os pinos nas quais os componentes estão ligados. Por sua vez, a biblioteca necessita de outras duas outras bibliotecas nativas da ESP, a biblioteca *wifi.h* e *HHTPClient.h*, para conseguir realizar a conexão via wifi e http com a interface WEB.
+ A biblioteca Controlebomba.h, foi criada de forma a ler os dados enviador pelo sensor e pela bomba, e transformá-los em Json, bem como para atualizar e receber os dados da Interface WEB, recebendo os pinos nas quais os componentes estão ligados. Por sua vez, a biblioteca necessita de outras duas outras bibliotecas nativas da ESP, a biblioteca *ESP8266wifi.h* e *ESP8266HTTPClient.h*, para conseguir realizar a conexão via wifi e http com a interface WEB.
  
  ![Controlebomba.h](img/biblioteca.png)
  
@@ -49,7 +49,7 @@ No monitor Serial, são mostrados os valores de umidade lidos, bem como o estado
 ![Monitor Serial](img/serial.png)
 ## Aplicação do QTCreator
 
-No QTCreator, foi criada uma aplicação para a informar ao usuário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento. Através dos botôes ligar e desligar, o usuário tem total controle, sobre o sistema, emitindo os dados de controle na serial, para que a Esp interprete os comandos. A porta serial que estiver disponível, será mostrada automaticamente, e a velocidade deve ser configura de acordo com a placa utilizada, no caso da ESP 8266, será o baudrate de 115200.OBS: Por utilizarem a mesma porta Serial, o Monitor Serial e a Aplicação QT não podem estar abertas aos mesmo tempo. Ao se apertar ligar, a Aplicação enviará a  Porta Serial o comamdo  {"BOMBA":1}, e ao se apertar desligar, enviará {"BOMBA":0}. Em umidade, o sa´rio pode visualizar o valor da umidade.
+No QTCreator, foi criada uma aplicação para a informar ao usuário a umidade da planta, bem como dar a ele controle de forma local a sua aplicação, fazendo possível que ele ative a bomba a qualquer momento. Através dos botôes ligar e desligar, o usuário tem total controle, sobre o sistema, emitindo os dados de controle na serial,cuja Porta Serial é mostrada no campo Porta, na figura abaixo, *COM1*, para que a Esp interprete os comandos. A porta serial que estiver disponível, será mostrada automaticamente, e a velocidade deve ser configurada de acordo com a placa utilizada, no caso da ESP 8266, será o baudrate de 115200, que pode ser alterada no campo *Velocidade*. Ao se apertar ligar, a Aplicação enviará a  Porta Serial o comamdo  {"BOMBA":1}, e ao se apertar desligar, enviará {"BOMBA":0}. Em umidade, o sa´rio pode visualizar o valor da umidade.OBS: Por utilizarem a mesma porta Serial, o Monitor Serial e a Aplicação QT não podem estar abertas aos mesmo tempo.
 
 ![Aplicação QTCreator](img/app.png)
 
